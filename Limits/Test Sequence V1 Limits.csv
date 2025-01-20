@@ -1,0 +1,7 @@
+Test Case,Sub Test,Step Type,Comparison type,Lower Limit,Higher Limit
+PSU Test,Voltage Test,Numeric,GELE,11,13
+PSU Test,Current Test,Numeric,GELE,0.1,0.2
+Connect Test,Connection Test,Boolean,EQ,True,True
+LED Test,Reverse Bias Test,Numeric,GELE,0.7,2.5
+Firmware Test,Version Test,String,EQ,V1.01,V1.01
+Firmware Test,FPGA Version,String,EQ,V1.02,V1.02
