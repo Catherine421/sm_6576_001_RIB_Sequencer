@@ -37,6 +37,13 @@
 		<Item Name="Global Variable" Type="Folder" URL="../Global Variable">
 			<Property Name="NI.DISK" Type="Bool">true</Property>
 		</Item>
+		<Item Name="I2C" Type="Folder">
+			<Item Name="libmpsse.lib" Type="Document" URL="../I2C/libmpsse.lib"/>
+			<Item Name="libMPSSE-I2C.lvlib" Type="Library" URL="../I2C/libMPSSE-I2C.lvlib"/>
+		</Item>
+		<Item Name="PCA9535 Control" Type="Folder" URL="../PCA9535 Control">
+			<Property Name="NI.DISK" Type="Bool">true</Property>
+		</Item>
 		<Item Name="Main.vi" Type="VI" URL="../Main.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="user.lib" Type="Folder">
@@ -55,7 +62,7 @@
 				<Item Name="FILE Rename (UTF8)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvzip/fileutil.llb/subVIs/FILE Rename (UTF8)__ogtk.vi"/>
 				<Item Name="FILE Rename (Path)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvzip/fileutil.llb/subVIs/FILE Rename (Path)__ogtk.vi"/>
 				<Item Name="FILE Rename__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvzip/fileutil.llb/FILE Rename__ogtk.vi"/>
-				<Item Name="lvzlib.dll" Type="Document" URL="/&lt;userlib&gt;/_OpenG.lib/lvzip/lvzlib.dll"/>
+				<Item Name="lvzlib64.dll" Type="Document" URL="/&lt;userlib&gt;/_OpenG.lib/lvzip/lvzlib64.dll"/>
 			</Item>
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Add State(s) to Queue__jki_lib_state_machine.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI Toolkits/State Machine/_JKI_lib_State_Machine.llb/Add State(s) to Queue__jki_lib_state_machine.vi"/>
@@ -299,10 +306,9 @@
 			<Item Name="nilvaiu.dll" Type="Document" URL="nilvaiu.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
-			<Item Name="Timer.vi" Type="VI" URL="../../../Users/Test Eng/Desktop/RIB Box - I2C - LabVIEW - Estops/RIB Box - I2C - LabVIEW - Estops/RIB_Box_I2C_Estops/VIs/Timer.vi"/>
-			<Item Name="libMPSSE-I2C.lvlib" Type="Library" URL="../../../Users/Test Eng/Desktop/RIB Box - I2C - LabVIEW - Estops/RIB Box - I2C - LabVIEW - Estops/RIB_Box_I2C_Estops/libMPSSE-I2C.lvlib"/>
-			<Item Name="ChannelConfig.ctl" Type="VI" URL="../../../Users/Test Eng/Desktop/RIB Box - I2C - LabVIEW - Estops/RIB Box - I2C - LabVIEW - Estops/RIB_Box_I2C_Estops/subvi/ChannelConfig.ctl"/>
-			<Item Name="Device info to text.vi" Type="VI" URL="../../../Users/Test Eng/Desktop/RIB Box - I2C - LabVIEW - Estops/RIB Box - I2C - LabVIEW - Estops/RIB_Box_I2C_Estops/subvi/Device info to text.vi"/>
+			<Item Name="libmpsse.dll" Type="Document" URL="libmpsse.dll">
+				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
+			</Item>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="My Application" Type="EXE">
