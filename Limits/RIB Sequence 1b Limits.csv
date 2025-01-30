@@ -2,3 +2,6 @@ Test Case,Sub Test,Step Type,Comparison type,Lower Limit,Higher Limit
 RIB - 24V Test,24V Test,Boolean,EQ,True,True
 RIB - 24V Test,TimerTest,Boolean,EQ,False,False
 RIB - Relay Init,Handle Out Test,Numeric,NEQ,0,0
+RIB - UDP Init,UDP Read Test,String,EQ,F0,F0
+RIB - eSTOP 1,eSTOP 1 Test,String,EQ,F1,F1
+RIB - eSTOP 1,eSTOP 1 Error Test,String,EQ,FF,FF
