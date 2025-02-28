@@ -1,0 +1,25 @@
+Test Case,Sub Test,Step Type,Comparison type,Lower Limit,Higher Limit
+RIB - Initialise,Initialise,Action,LOG,0,0
+RIB - 24V Test,24V Test,Boolean,EQ,True,True
+RIB - 24V Test,TimerTest,Boolean,EQ,False,False
+RIB - UDP Init,UDP Read Test,String,EQ,F0,F0
+RIB - Relay Init,Handle Out Test,Numeric,NE,0,0
+RIB - eSTOP 1,eSTOP 1 Test,String,EQ,F1,F1
+RIB - eSTOP 1,eSTOP 1 Error Test,String,EQ,FF,FF
+RIB - eSTOP 2,eSTOP 2 Test,String,EQ,F4,F4
+RIB - eSTOP 2,eSTOP 2 Error Test,String,EQ,FF,FF
+RIB - CJB Earthed,CJB Earthed Test,String,EQ,7FC5,7FC5
+RIB - CJB Earthed,CJB Earthed Error Test,String,EQ,C5,C5
+RIB - Door SW,Door SW Test,String,EQ,C2,C2
+RIB - Door SW,Door SW Error Test,String,EQ,C0,C0
+RIB - Fuse,Fuse 1 Test,String,EQ,80FF,08FF
+RIB - Fuse,Fuse 2 Test,String,EQ,40FF,40FF
+RIB - Fuse,Fuse 3 Test,String,EQ,C0FE,C0FE
+RIB - Fuse,Fuse 4 Test,String,EQ,C0FD,C0FD
+RIB - Fuse,Fuse 5 Test,String,EQ,C0FB,C0FB
+RIB - Fuse,Fuse 6 Test,String,EQ,C0F7,C0F7
+RIB - Fuse,Fuse 7 Test,String,EQ,C0EF,C0EF
+RIB - Fuse,Fuse 8 Test,String,EQ,C0DF,C0DF
+RIB - Fuse,Fuse 9 Test,String,EQ,C0BF,C0BF
+RIB - Fuse,All Fuses Test,String,EQ,080,080
+RIB - Shutdown,Clean Up,Action,LOG,0,0
