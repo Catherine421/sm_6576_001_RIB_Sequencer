@@ -302,8 +302,27 @@
 				<Item Name="DAQmx Create Virtual Channel.vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/create/channels.llb/DAQmx Create Virtual Channel.vi"/>
 				<Item Name="DAQmx Clear Task.vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/configure/task.llb/DAQmx Clear Task.vi"/>
 				<Item Name="DAQmx Stop Task.vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/configure/task.llb/DAQmx Stop Task.vi"/>
+				<Item Name="Simple Error Handler.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Simple Error Handler.vi"/>
 			</Item>
 			<Item Name="nilvaiu.dll" Type="Document" URL="nilvaiu.dll">
+				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
+			</Item>
+			<Item Name="Process Results.vi" Type="VI" URL="../Tests/Results/Process Results.vi"/>
+			<Item Name="Timer.vi" Type="VI" URL="../Tests/Support VIs/Timer.vi"/>
+			<Item Name="FGV - Enum" Type="VI" URL="../Tests/Global Variable/FGV - Enum"/>
+			<Item Name="FGV - Initialise.vi" Type="VI" URL="../Tests/Global Variable/FGV - Initialise.vi"/>
+			<Item Name="I2C Close Channel.vi" Type="VI" URL="../Tests/I2C/I2C Close Channel.vi"/>
+			<Item Name="Timer.vi" Type="VI" URL="../../../Users/Test Eng/Desktop/RIB Box - I2C - LabVIEW - Estops/RIB_Box_I2C_Estops/VIs/Timer.vi"/>
+			<Item Name="PCA9525 - Write.vi" Type="VI" URL="../../../Users/Test Eng/Desktop/RIB Box - I2C - LabVIEW - Estops/RIB_Box_I2C_Estops/VIs/PCA9535 Control/PCA9525 - Write.vi"/>
+			<Item Name="PCA9525 - Estop 1.vi" Type="VI" URL="../../../Users/Test Eng/Desktop/RIB Box - I2C - LabVIEW - Estops/RIB_Box_I2C_Estops/VIs/PCA9535 Control/PCA9525 - Estop 1.vi"/>
+			<Item Name="PCA9525 - Read.vi" Type="VI" URL="../../../Users/Test Eng/Desktop/RIB Box - I2C - LabVIEW - Estops/RIB_Box_I2C_Estops/VIs/PCA9535 Control/PCA9525 - Read.vi"/>
+			<Item Name="libMPSSE-I2C.lvlib" Type="Library" URL="../../../Users/Test Eng/Desktop/RIB Box - I2C - LabVIEW - Estops/RIB_Box_I2C_Estops/libMPSSE-I2C.lvlib"/>
+			<Item Name="Device info to text.vi" Type="VI" URL="../../../Users/Test Eng/Desktop/RIB Box - I2C - LabVIEW - Estops/RIB_Box_I2C_Estops/subvi/Device info to text.vi"/>
+			<Item Name="ChannelConfig.ctl" Type="VI" URL="../../../Users/Test Eng/Desktop/RIB Box - I2C - LabVIEW - Estops/RIB_Box_I2C_Estops/subvi/ChannelConfig.ctl"/>
+			<Item Name="Search for Fail.vi" Type="VI" URL="../Sandbox/Results/Search for Fail.vi"/>
+			<Item Name="Sequence Array Formatting.vi" Type="VI" URL="../Sandbox/Support VIs/Sequence Array Formatting.vi"/>
+			<Item Name="Scan Barcode.vi" Type="VI" URL="../Sandbox/Dialog/Scan Barcode.vi"/>
+			<Item Name="System" Type="VI" URL="System">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
 		</Item>
