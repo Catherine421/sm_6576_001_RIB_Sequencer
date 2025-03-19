@@ -1,0 +1,22 @@
+Test Case,Sub Test,Step Type,Comparison type,Lower Limit,Higher Limit
+RIB Req - Initialise,Initialise,Action,LOG,0,0
+RIB Req - 24V Test,24V Test,Boolean,EQ,True,True
+RIB Req - 24V Test,TimerTest,Boolean,EQ,False,False
+RIB Req - UDP Init,Connect Fail Test,String,EQ,5b03090100,5b03090100
+RIB Req - UDP Init,Connect Test,String,EQ,5b03090100,5b03090100
+RIB Req - UDP Init,UDP Read Test,String,EQ,F0,F0
+RIB Req - UDP Init,5A Read Test,Boolean,EQ,True,True
+RIB Req - UDP Init,Read ROV A Test,String,EQ,C,C
+RIB Req - UDP Init,Read ROV B Test,String,EQ,F,F
+RIB Req - UDP Init,Read TMS Test,String,EQ,12,12
+RIB Req - UDP Init,Read Wait for Start Test,String,EQ,15,15
+RIB Req - UDP Init,Read Normal Operation Test,String,EQ,19,19
+RIB Req - Relay Init,Handle Out Test,Numeric,NE,0,0
+RIB Req - 15A Test,15A Read Test,Boolean,EQ,True,True
+RIB Req - eSTOP 1,Read Set Test,String,EQ,15,15
+RIB Req - eSTOP 1, Read Start Test,String,EQ,19,19
+RIB Req - eSTOP 1,eSTOP 1 Test,String,EQ,F1,F1
+RIB Req - eSTOP 1,eSTOP 1 State Test,String,EQ,2,2
+RIB Req - eSTOP 1,eSTOP 1 Error Test,String,EQ,FF,FF
+RIB Req - eSTOP 1,eSTOP 1 State Error Test,String,EQ,2,2
+RIB Req - Shutdown,Clean Up,Action,LOG,0,0
