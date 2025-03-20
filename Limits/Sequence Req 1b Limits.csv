@@ -2,7 +2,7 @@ Test Case,Sub Test,Step Type,Comparison type,Lower Limit,Higher Limit
 RIB Req - Initialise,Initialise,Action,LOG,0,0,Add Comment Here
 RIB Req - 24V Test,24V Test,Boolean,EQ,True,True
 RIB Req - 24V Test,TimerTest,Boolean,EQ,False,False
-RIB Req - UDP Init,Connect Fail Test,String,EQ,5B0910,5B0910 
+RIB Req - UDP Init,Connect Fail Test,String,EQ,5B0910,5B0910, 
 RIB Req - UDP Init,Connect Test,String,EQ,5B3910,5B3910
 RIB Req - UDP Init,UDP Read Test,String,EQ,F0,F0
 RIB Req - UDP Init,5A Read Test,Boolean,EQ,True,True

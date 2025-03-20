@@ -1,0 +1,11 @@
+[Station Data]
+Results folder path = "/C/results"
+Station Name = "Test"
+Operation Type = "SW Debug"
+
+[Product Data]
+Product Number = "1234"
+Revision Number = "567"
+
+[Test Case Order]
+Sequence = "Connect Test,Firmware Test,LED Test,PSU Test,Shutdown"
