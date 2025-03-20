@@ -1,7 +1,7 @@
 [Station Data]
 Results folder path = "/C/results"
 Station Name = "RIB Req Test"
-Operation Type = "PCBA Test"
+Operation Type = "PCBA test"
 
 [Product Data]
 Product Number = "6576"
