@@ -1,0 +1,11 @@
+[Station Data]
+Results folder path = "/C/results"
+Station Name = "RIB Req Test"
+Operation Type = "PCBA test"
+
+[Product Data]
+Product Number = "6576"
+Revision Number = "001"
+
+[Test Case Order]
+Sequence = "RIB Req - Initialise,RIB Req - Relay Init,RIB Req - UDP Connect,RIB Req - UDP Enable UPS,RIB Req - UDP 5A,RIB Req - UDP Enable ROV A B TMS,RIB Req - UDP Normal Operation,RIB Req - eSTOP 1 Test,RIB Req - eSTOP 1 - Normal Operation,RIB Req - eSTOP 1 - Error,RIB Req - 24V Test,RIB Req - 15A Test,RIB Req - Shutdown"
