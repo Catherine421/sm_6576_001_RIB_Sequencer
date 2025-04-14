@@ -8,4 +8,4 @@ Product Number = "6576"
 Revision Number = "001"
 
 [Test Case Order]
-Sequence = "RIB Req - Initialise,RIB Req - UDP Init,RIB Req - 24V Test,RIB Req - Relay Init,RIB Req - 15A Test,RIB Req - eSTOP 1,RIB Req - Shutdown"
+Sequence = "RIB Req - Initialise,RIB Req - Relay Init,RIB Req - UDP Init,RIB Req - 24V Test,RIB Req - 15A Test,RIB Req - eSTOP 1,RIB Req - Shutdown"
