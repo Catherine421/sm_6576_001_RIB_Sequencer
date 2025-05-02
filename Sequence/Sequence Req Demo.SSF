@@ -8,4 +8,4 @@ Product Number = "6576"
 Revision Number = "001"
 
 [Test Case Order]
-Sequence = "RIB - Initialise,RIB - UDP Init,RIB - 24V Test,RIB - Relay Init,RIB - eSTOP 1,RIB - eSTOP 2,RIB - CJB Earthed,RIB - Door SW,RIB - Fuse,RIB - Shutdown"
+Sequence = "RIB Req - Initialise,RIB Req - Relay Init,RIB Req - UDP Connect,RIB Req - UDP Enable UPS,RIB Req - UDP Enable ROV A B TMS,RIB Req - UDP Normal Operation,RIB Req - eSTOP 1 Test,RIB Req - eSTOP 1 - Normal Operation,RIB Req - eSTOP 1 Test - Error,RIB Req - eSTOP 1 Error - Normal Operation,RIB Req - eSTOP 2 Test,RIB Req - eSTOP 2 - Normal Operation,RIB Req - eSTOP 2 Test - Error,RIB Req - eSTOP 2 Error - Normal Operation,RIB Req - Shutdown"
