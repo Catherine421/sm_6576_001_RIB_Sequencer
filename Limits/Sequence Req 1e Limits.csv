@@ -4,7 +4,7 @@ RIB Req - Relay Init,Handle Out Test,Numeric,NE,0,0
 RIB Req - UDP Connect,Connect Fail Test,String,EQ,5B0910,5B0910,R20-PA-L-80.01
 RIB Req - UDP Connect,Connect Test,String,EQ,5B3910,5B3910,R20-PA-L-80.01
 RIB Req - UDP Enable UPS,UDP Read Test,String,EQ,2,2,R20-PA-L-81
-RIB Req - UDP 5A,5A Read Test,Boolean,EQ,True,True,R20-PA-L-81
+RIB Req - UDP Enable UPS,5A Test,Boolean,EQ,True,True,R20-PA-L-81
 RIB Req - UDP Enable ROV A B TMS,Read ROV A Test,String,EQ,C,C,R20-PA-L-82.01
 RIB Req - UDP Enable ROV A B TMS,Read ROV B Test,String,EQ,F,F,R20-PA-L-82.01
 RIB Req - UDP Enable ROV A B TMS,Read TMS Test,String,EQ,12,12,R20-PA-L-82.01
