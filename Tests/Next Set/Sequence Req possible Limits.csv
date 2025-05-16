@@ -1,0 +1,34 @@
+Test Case,Sub Test,Step Type,Comparison type,Lower Limit,Higher Limit
+RIB Req - Initialise,Initialise,Action,LOG,0,0,Add Comment Here
+RIB Req - Relay Init,Handle Out Test,Numeric,NE,0,0
+RIB Req - UDP Connect,Connect Fail Test,String,EQ,5B0910,5B0910,R20-PA-L-80.01
+RIB Req - UDP Connect,Connect Test,String,EQ,5B3910,5B3910,R20-PA-L-80.01
+RIB Req - UDP Enable UPS,UDP Read Test,String,EQ,2,2,R20-PA-L-81
+RIB Req - UDP Enable UPS,5A Test,Boolean,EQ,True,True,R20-PA-L-81
+RIB Req - UDP Enable ROV A B TMS,Read ROV A Test,String,EQ,C,C,R20-PA-L-82.01
+RIB Req - UDP Enable ROV A B TMS,Read ROV B Test,String,EQ,F,F,R20-PA-L-82.01
+RIB Req - UDP Enable ROV A B TMS,Read TMS Test,String,EQ,12,12,R20-PA-L-82.01
+RIB Req - UDP Normal Operation,Read Wait for Start Test,String,EQ,15,15,R20-PA-L-83
+RIB Req - UDP Normal Operation,Read Normal Operation Test,String,EQ,19,19,R20-PA-L-83
+RIB Req - eSTOP 1 Test,eSTOP 1 Test,String,EQ,54,54,R20-PA-L-73
+RIB Req - eSTOP 1 Test,eSTOP 1 State Test,String,EQ,2,2,
+RIB Req - eSTOP 1 Test,eSTOP 1 Monitor Test,Boolean,EQ,True,True
+RIB Req - eSTOP 1 - Normal Operation,Read Set Test,String,EQ,15,15
+RIB Req - eSTOP 1 - Normal Operation,Read Start Test,String,EQ,19,19
+RIB Req - eSTOP 1 Test - Error,eSTOP 1 E Test,String,EQ,FF,FF
+RIB Req - eSTOP 1 Test - Error,eSTOP 1 E State Test,String,EQ,2,2
+RIB Req - eSTOP 1 Test - Error,eSTOP 1 E Monitor Test,Boolean,EQ,True,True
+RIB Req - eSTOP 1 Error - Normal Operation,Read Set Test,String,EQ,15,15
+RIB Req - eSTOP 1 Error - Normal Operation,Read Start Test,String,EQ,19,19
+RIB Req - eSTOP 2 Test,eSTOP 2 Test,String,EQ,51,51,R20-PA-L-73
+RIB Req - eSTOP 2 Test,eSTOP 2 State Test,String,EQ,2,2
+RIB Req - eSTOP 2 Test,eSTOP 2 Monitor Test,Boolean,EQ,True,True
+RIB Req - eSTOP 2 - Normal Operation,Read Set Test,String,EQ,15,15
+RIB Req - eSTOP 2 - Normal Operation,Read Start Test,String,EQ,19,19
+RIB Req - eSTOP 2 Test - Error,eSTOP 2 E Test,String,EQ,FF,FF
+RIB Req - eSTOP 2 Test - Error,eSTOP 2 E State Test,String,EQ,2,2
+RIB Req - eSTOP 2 Test - Error,eSTOP 2 E Monitor Test,Boolean,EQ,True,True
+RIB Req - eSTOP 2 Error - Normal Operation,Read Set Test,String,EQ,15,15
+RIB Req - eSTOP 2 Error - Normal Operation,Read Start Test,String,EQ,19,19
+RIB Req - 15A Test,15A Read Test,Boolean,EQ,True,True,R20-PA-L-82
+RIB Req - Shutdown,Clean Up,Action,LOG,0,0

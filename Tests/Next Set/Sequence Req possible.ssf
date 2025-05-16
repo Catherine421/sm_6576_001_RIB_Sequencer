@@ -1,0 +1,66 @@
+[Station Data]
+Results folder path = "/C/results"
+Station Name = "RIB Req Test"
+Operation Type = "PCBA test"
+
+[Product Data]
+Product Number = "6576"
+Revision Number = "001"
+
+[Test Case Order]
+Sequence = "RIB Req - Initialise,
+RIB Req - Relay Init,
+RIB Req - UDP Connect,
+IB Req - UDP Enable UPS,
+RIB Req - 15A Test,
+RIB Req - UDP Enable ROV A B TMS,
+RIB Req - UDP Normal Operation,
+RIB Req - eSTOP 1 Test,
+RIB Req - eSTOP 1 - Normal Operation,
+RIB Req - eSTOP 1 Test - Error,
+RIB Req - eSTOP 1 Error - Normal Operation,
+RIB Req - eSTOP 2 Test,
+RIB Req - eSTOP 2 - Normal Operation,
+RIB Req - eSTOP 2 Test - Error,
+RIB Req - eSTOP 2 Error - Normal Operation,
+RIB Req - eSTOP 3 Test,
+RIB Req - eSTOP 3 - Normal Operation,
+RIB Req - eSTOP 3 Test - Error,
+RIB Req - eSTOP 3 Error - Normal Operation,
+RIB Req - eSTOP 4 Test,
+RIB Req - eSTOP 4 - Normal Operation,
+RIB Req - eSTOP 4 Test - Error,
+RIB Req - eSTOP 4 Error - Normal Operation,
+RIB Req - CJB Eathered Test, +
+RIB Req - CJB Eathered - Normal Operation,
+RIB Req - CJB Eathered Test - Error,
+RIB Req - CJB Eathered Error - Normal Operation, 
+RIB Req - Door SW Test,
+RIB Req - Door SW - Normal Operation,
+RIB Req - Door SW Test - Error, 
+RIB Req - Door SW Error - Normal Operation,
+RIB Req - Fuse 1 Test,
+RIB Req - Fuse 2 Test,
+RIB Req - Fuse 3 Test,
+RIB Req - Fuse 4 Test,
+RIB Req - Fuse 5 Test,
+RIB Req - Fuse 6 Test,
+RIB Req - Fuse 7 Test,
+RIB Req - Fuse 8 Test,
+RIB Req - Fuse 9 Test,
+RIB Req - GMON 1 Test,
+RIB Req - GMON 1 - Normal Operation,
+RIB Req - GMON 1 Test - Error, 
+RIB Req - GMON 1 Error - Normal Operation,
+RIB Req - GMON 2 Test,
+RIB Req - GMON 2 - Normal Operation,
+RIB Req - GMON 2 Test - Error, 
+RIB Req - GMON 2 Error - Normal Operation,
+RIB Req - Local Mode Reset Test,
+RIB Req - Local Mode Set Test,
+RIB Req - Local Mode Unresponsive Test,
+RIB Req - Reset Test,
+RIB Req - Shutdown Test,
+RIB Req - Disconnet Test,
+
+RIB Req - Shutdown"
