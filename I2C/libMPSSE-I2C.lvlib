@@ -12,7 +12,7 @@
 	<Item Name="Init lib MPSSE.vi" Type="VI" URL="../../../../Users/Test Eng/Desktop/RIB Box - I2C - LabVIEW - Estops/RIB_Box_I2C_Estops/VIs/Init lib MPSSE.vi"/>
 	<Item Name="I2C Change CS.vi" Type="VI" URL="../I2C Change CS.vi"/>
 	<Item Name="I2C Read.vi" Type="VI" URL="../I2C Read.vi"/>
-	<Item Name="I2C Close Channel.vi" Type="VI" URL="../I2C Close Channel.vi"/>
+	<Item Name="I2C Close Channel.vi" Type="VI" URL="../../../../Users/Test Eng/Desktop/RIB Box - I2C - LabVIEW - Estops/RIB_Box_I2C_Estops/VIs/I2C Close Channel.vi"/>
 	<Item Name="I2C Get Channel Info.vi" Type="VI" URL="../../../../Users/Test Eng/Desktop/RIB Box - I2C - LabVIEW - Estops/RIB_Box_I2C_Estops/VIs/I2C Get Channel Info.vi"/>
 	<Item Name="I2C Get Num Channels.vi" Type="VI" URL="../../../../Users/Test Eng/Desktop/RIB Box - I2C - LabVIEW - Estops/RIB_Box_I2C_Estops/VIs/I2C Get Num Channels.vi"/>
 	<Item Name="I2C Init Channel.vi" Type="VI" URL="../I2C Init Channel.vi"/>

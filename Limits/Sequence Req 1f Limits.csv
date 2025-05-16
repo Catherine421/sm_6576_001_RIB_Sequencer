@@ -1,0 +1,116 @@
+Test Case,Sub Test,Step Type,Comparison type,Lower Limit,Higher Limit
+RIB Req - Initialise,Initialise,Action,LOG,0,0,Add Comment Here
+RIB Req - Relay Init,Handle Out Test,Numeric,NE,0,0
+RIB Req - UDP Connect,Connect Fail Test,String,EQ,5B0910,5B0910,R20-PA-L-80.01
+RIB Req - UDP Connect,Connect Test,String,EQ,5B3910,5B3910,R20-PA-L-80.01
+RIB Req - UDP Enable UPS,UDP Read Test,String,EQ,2,2,R20-PA-L-81
+RIB Req - UDP Enable UPS,5A Test,Boolean,EQ,True,True,R20-PA-L-81
+RIB Req - UDP Enable ROV A B TMS,Read ROV A Test,String,EQ,C,C,R20-PA-L-82.01
+RIB Req - UDP Enable ROV A B TMS,Read ROV B Test,String,EQ,F,F,R20-PA-L-82.01
+RIB Req - UDP Enable ROV A B TMS,Read TMS Test,String,EQ,12,12,R20-PA-L-82.01
+RIB Req - UDP Normal Operation,Read Wait for Start Test,String,EQ,15,15,R20-PA-L-83
+RIB Req - UDP Normal Operation,Read Normal Operation Test,String,EQ,19,19,R20-PA-L-83
+RIB Req - 15A Test,15A Read Test,Boolean,EQ,True,True,R20-PA-L-82
+RIB Req - eSTOP 1 Test,eSTOP 1 Test,String,EQ,54,54,R20-PA-L-73
+RIB Req - eSTOP 1 Test,eSTOP 1 State Test,String,EQ,2,2,
+RIB Req - eSTOP 1 Test,eSTOP 1 Monitor Test,Boolean,EQ,True,True
+RIB Req - eSTOP 1 - Normal Operation,Read Set Test,String,EQ,15,15
+RIB Req - eSTOP 1 - Normal Operation,Read Start Test,String,EQ,19,19
+RIB Req - eSTOP 1 Test - Error,eSTOP 1 E Test,String,EQ,FF,FF
+RIB Req - eSTOP 1 Test - Error,eSTOP 1 E State Test,String,EQ,2,2
+RIB Req - eSTOP 1 Test - Error,eSTOP 1 E Monitor Test,Boolean,EQ,True,True
+RIB Req - eSTOP 1 Error - Normal Operation,Read Set Test,String,EQ,15,15
+RIB Req - eSTOP 1 Error - Normal Operation,Read Start Test,String,EQ,19,19
+RIB Req - eSTOP 2 Test,eSTOP 2 Test,String,EQ,51,51,R20-PA-L-73
+RIB Req - eSTOP 2 Test,eSTOP 2 State Test,String,EQ,2,2
+RIB Req - eSTOP 2 Test,eSTOP 2 Monitor Test,Boolean,EQ,True,True
+RIB Req - eSTOP 2 - Normal Operation,Read Set Test,String,EQ,15,15
+RIB Req - eSTOP 2 - Normal Operation,Read Start Test,String,EQ,19,19
+RIB Req - eSTOP 2 Test - Error,eSTOP 2 E Test,String,EQ,FF,FF
+RIB Req - eSTOP 2 Test - Error,eSTOP 2 E State Test,String,EQ,2,2
+RIB Req - eSTOP 2 Test - Error,eSTOP 2 E Monitor Test,Boolean,EQ,True,True
+RIB Req - eSTOP 2 Error - Normal Operation,Read Set Test,String,EQ,15,15
+RIB Req - eSTOP 2 Error - Normal Operation,Read Start Test,String,EQ,19,19
+RIB Req - eSTOP 3 Test,eSTOP 3 Test,String,EQ,45,45,R20-PA-L-73
+RIB Req - eSTOP 3 Test,eSTOP 3 State Test,String,EQ,19,19
+RIB Req - eSTOP 3 Test,eSTOP 3 Monitor Test,Boolean,EQ,True,True
+RIB Req - eSTOP 3 - Normal Operation,Read Set Test,String,EQ,19,19
+RIB Req - eSTOP 3 - Normal Operation,Read Start Test,String,EQ,19,19
+RIB Req - eSTOP 3 Test - Error,eSTOP 3 E Test,String,EQ,FF,FF
+RIB Req - eSTOP 3 Test - Error,eSTOP 3 E State Test,String,EQ,2,2
+RIB Req - eSTOP 3 Test - Error,eSTOP 3 E Monitor Test,Boolean,EQ,True,True
+RIB Req - eSTOP 3 Error - Normal Operation,Read Set Test,String,EQ,15,15
+RIB Req - eSTOP 3 Error - Normal Operation,Read Start Test,String,EQ,19,19
+RIB Req - eSTOP 4 Test,eSTOP 4 Test,String,EQ,15,15,R20-PA-L-73
+RIB Req - eSTOP 4 Test,eSTOP 4 State Test,String,EQ,19,19
+RIB Req - eSTOP 4 Test,eSTOP 4 Monitor Test,Boolean,EQ,True,True
+RIB Req - eSTOP 4 - Normal Operation,Read Set Test,String,EQ,19,19
+RIB Req - eSTOP 4 - Normal Operation,Read Start Test,String,EQ,19,19
+RIB Req - eSTOP 4 Test - Error,eSTOP 4 E Test,String,EQ,FF,FF
+RIB Req - eSTOP 4 Test - Error,eSTOP 4 E State Test,String,EQ,2,2
+RIB Req - eSTOP 4 Test - Error,eSTOP 4 E Monitor Test,Boolean,EQ,True,True
+RIB Req - eSTOP 4 Error - Normal Operation,Read Set Test,String,EQ,15,15
+RIB Req - eSTOP 4 Error - Normal Operation,Read Start Test,String,EQ,19,19
+RIB Req - CJB Eathered Test,CJB Earthed Test,String,EQ,008002,008002,R20-PA-L-73
+RIB Req - CJB Eathered Test,CJB State Test,String,EQ,2,2
+RIB Req - CJB Eathered Test,CJB Monitor Test,Boolean,EQ,True,True
+RIB Req - CJB Eathered - Normal Operation,Read Set Test,String,EQ,15,15
+RIB Req - CJB Eathered - Normal Operation,Read Start Test,String,EQ,19,19
+RIB Req - CJB Eathered Test - Error,CJB Earthed E Test,String,EQ,000002,000002
+RIB Req - CJB Eathered Test - Error,CJB E State Test,String,EQ,2,2
+RIB Req - CJB Eathered Test - Error,CJB E Monitor Test,Boolean,EQ,True,True
+RIB Req - CJB Eathered Error - Normal Operation,Read Set Test,String,EQ,15,15
+RIB Req - CJB Eathered Error - Normal Operation,Read Start Test,String,EQ,19,19
+RIB Req - Door SW Test,Door SW Test,String,EQ,000005,000005,R20-PA-L-73
+RIB Req - Door SW Test,Door SW State Test,String,EQ,2,2
+RIB Req - Door SW Test,Door SW Monitor Test,Boolean,EQ,True,True
+RIB Req - Door SW - Normal Operation,Read Set Test,String,EQ,15,15
+RIB Req - Door SW - Normal Operation,Read Start Test,String,EQ,19,19
+RIB Req - Door SW Test - Error,Door SW E Test,String,EQ,000001,000001
+RIB Req - Door SW Test - Error,Door SW E State Test,String,EQ,2,2
+RIB Req - Door SW Test - Error,Door SW E Monitor Test,Boolean,EQ,True,True
+RIB Req - Door SW Error - Normal Operation,Read Set Test,String,EQ,15,15
+RIB Req - Door SW Error - Normal Operation,Read Start Test,String,EQ,19,19
+RIB Req - Fuse 1 Test,Fuse 1 Test,String,EQ,4000C3,4000C3
+RIB Req - Fuse 1 Test,Fuse 1 State Test,String,EQ,19,19
+RIB Req - Fuse 2 Test,Fuse 2 Test,String,EQ,8000C3,8000C3
+RIB Req - Fuse 2 Test,Fuse 2 State Test,String,EQ,19,19
+RIB Req - Fuse 3 Test,Fuse 3 Test,String,EQ,0001C3,0001C3
+RIB Req - Fuse 3 Test,Fuse 3 State Test,String,EQ,19,19
+RIB Req - Fuse 4 Test,Fuse 4 Test,String,EQ,0002C3,0002C3
+RIB Req - Fuse 4 Test,Fuse 4 State Test,String,EQ,19,19
+RIB Req - Fuse 5 Test,Fuse 5 Test,String,EQ,0004C3,0004C3
+RIB Req - Fuse 5 Test,Fuse 5 State Test,String,EQ,19,19
+RIB Req - Fuse 6 Test,Fuse 6 Test,String,EQ,0008C3,0008C3
+RIB Req - Fuse 6 Test,Fuse 6 State Test,String,EQ,19,19
+RIB Req - Fuse 7 Test,Fuse 7 Test,String,EQ,0010C3,0010C3
+RIB Req - Fuse 7 Test,Fuse 7 State Test,String,EQ,19,19
+RIB Req - Fuse 8 Test,Fuse 8 Test,String,EQ,0020C3,0020C3
+RIB Req - Fuse 8 Test,Fuse 8 State Test,String,EQ,19,19
+RIB Req - Fuse 9 Test,Fuse 9 Test,String,EQ,0040C3,0040C3
+RIB Req - Fuse 9 Test,Fuse 9 State Test,String,EQ,19,19
+RIB Req - GMON 1 Test,GMON 1 Test,String,EQ,0340C1,0340C1,R20-PA-L-73
+RIB Req - GMON 1 Test,GMON 1 State Test,String,EQ,2,2
+RIB Req - GMON 1 Test,GMON 1 Monitor Test,Boolean,EQ,True,True
+RIB Req - GMON 1 - Normal Operation,Read Set Test,String,EQ,15,15
+RIB Req - GMON 1 - Normal Operation,Read Start Test,String,EQ,19,19
+RIB Req - GMON 1 Test - Error,GMON1 E Test,String,EQ,0340C0,0340C0
+RIB Req - GMON 1 Test - Error,GMON1 E State Test,String,EQ,2,2
+RIB Req - GMON 1 Test - Error,GMON1 E Monitor Test,Boolean,EQ,True,True
+RIB Req - GMON 1 Error - Normal Operation,Read Set Test,String,EQ,15,15
+RIB Req - GMON 1 Error - Normal Operation,Read Start Test,String,EQ,19,19
+RIB Req - GMON 2 Test,GMON 2 Test,String,EQ,0300D4,0300D4,R20-PA-L-73
+RIB Req - GMON 2 Test,GMON 2 State Test,String,EQ,2,2
+RIB Req - GMON 2 Test,GMON 2 Monitor Test,Boolean,EQ,True,True
+RIB Req - GMON 2 - Normal Operation,Read Set Test,String,EQ,15,15
+RIB Req - GMON 2 - Normal Operation,Read Start Test,String,EQ,19,19
+RIB Req - GMON 2 Test - Error,GMON2 E Test,String,EQ,0300C4,0300C4
+RIB Req - GMON 2 Test - Error,GMON2 E State Test,String,EQ,2,2
+RIB Req - GMON 2 Test - Error,GMON2 E Monitor Test,Boolean,EQ,True,True
+RIB Req - GMON 2 Error - Normal Operation,Read Set Test,String,EQ,15,15
+RIB Req - GMON 2 Error - Normal Operation,Read Start Test,String,EQ,19,19
+RIB Req - Local Mode Reset Test,State Test,String,EQ,2,2
+RIB Req - Local Mode Set Test,State Test,String,EQ,15,15
+RIB Req - Local Mode Unresponsive Test,State Test,String,EQ,15,15
+RIB Req - Shutdown,Clean Up,Action,LOG,0,0
+
